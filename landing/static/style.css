@@ -1,0 +1,41 @@
+html {
+    background: url("/static/img/orans.jpg");
+    background-size: cover;
+}
+
+h1 {
+    display: inline-block;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .2em;
+    text-shadow: 2px -0.5px whitesmoke;
+}
+
+div.title {
+    text-align: center;
+    border: solid;
+    border-width: .4em;
+}
+
+div.shapes {
+    border: solid 4px black;
+    display: inline;
+}
+
+img {
+    width: 5%;
+    height: 5%;
+}
+
+footer {
+    display: inline-block;
+    position: fixed;
+    bottom: 0px;
+    
+}
+
+span {
+    color: red;
+    text-shadow: 2px -0.5px black;
+}
+
