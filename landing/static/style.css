@@ -28,14 +28,321 @@ img {
 }
 
 footer {
-    display: inline-block;
+    bottom: 0em;
     position: fixed;
-    bottom: 0px;
-    
 }
 
 span {
     color: red;
     text-shadow: 2px -0.5px black;
+}
+
+@media only screen and (min-width: 320px) {
+    img.ig {
+        width: 25%;
+        height: 25%;
+        padding-left: 40px;
+    }
+
+    img.fb {
+        width: 21.5%;
+        height: 21.5%;
+        padding-bottom: 6px;
+        padding-left: 60px;
+    }
+
+    h1 {
+        font-size: 1.09rem;
+    }
+
+    div.title {
+        border-width: .3em;
+    }
+
+    html {
+        padding-top: 7px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    img.ig {
+        width: 25%;
+        height: 25%;
+        padding-left: 40px;
+        padding-bottom: 2px;
+    }
+
+    img.fb {
+        width: 21.5%;
+        height: 21.5%;
+        padding-bottom: 8px;
+        padding-left: 75px;
+    }
+
+    h1 {
+        font-size: 1.28rem;
+    }
+
+    div.title {
+        border-width: .31em;
+    }
+
+    html {
+        padding-top: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    img.ig {
+        width: 25%;
+        height: 25%;
+        padding-left: 40px;
+        padding-bottom: 4px;
+    }
+
+    img.fb {
+        width: 21.5%;
+        height: 21.5%;
+        padding-bottom: 11px;
+        padding-left: 85px;
+    }
+
+    h1 {
+        font-size: 1.45rem;
+    }
+
+    div.title {
+        border-width: .335em;
+    }
+
+    html {
+        padding-top: 10.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (min-width: 568px) {
+    img.ig {
+        width: 15%;
+        height: 15%;
+        padding-left: 40px;
+        padding-bottom: 4px;
+    }
+
+    img.fb {
+        width: 12.7%;
+        height: 12.7%;
+        padding-bottom: 11px;
+        padding-left: 182px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    div.title {
+        border-width: .335em;
+    }
+
+    html {
+        padding-top: 10.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (min-width: 667px) {
+    img.ig {
+        width: 15%;
+        height: 15%;
+        padding-left: 40px;
+        padding-bottom: 4px;
+    }
+
+    img.fb {
+        width: 12.7%;
+        height: 12.7%;
+        padding-bottom: 11px;
+        padding-left: 215px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    div.title {
+        border-width: .335em;
+    }
+
+    html {
+        padding-top: 10.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (min-width: 736px) {
+    img.ig {
+        width: 14%;
+        height: 14%;
+        padding-left: 40px;
+        padding-bottom: 4px;
+    }
+
+    img.fb {
+        width: 11.8%;
+        height: 11.8%;
+        padding-bottom: 11px;
+        padding-left: 247px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    div.title {
+        border-width: .335em;
+    }
+
+    html {
+        padding-top: 10.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    img.ig {
+        width: 14%;
+        height: 14%;
+        padding-left: 60px;
+        padding-bottom: 4px;
+    }
+
+    img.fb {
+        width: 11.8%;
+        height: 11.8%;
+        padding-bottom: 11px;
+        padding-left: 265px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    div.title {
+        border-width: .335em;
+    }
+
+    html {
+        padding-top: 10.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    img.ig {
+        width: 13.5%;
+        height: 13.5%;
+        padding-left: 100px;
+        padding-bottom: 6px;
+    }
+
+    img.fb {
+        width: 11.8%;
+        height: 11.8%;
+        padding-bottom: 13px;
+        padding-left: 327px;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    div.title {
+        border-width: .38em;
+    }
+
+    html {
+        padding-top: 10.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    img.ig {
+        width: 13.5%;
+        height: 13.5%;
+        padding-left: 120px;
+        padding-bottom: 9px;
+    }
+
+    img.fb {
+        width: 11.7%;
+        height: 11.7%;
+        padding-bottom: 20px;
+        padding-left: 450px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    div.title {
+        border-width: .5em;
+    }
+
+    html {
+        padding-top: 10.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    img.ig {
+        width: 13.5%;
+        height: 13.5%;
+        padding-left: 160px;
+        padding-bottom: 6px;
+    }
+
+    img.fb {
+        width: 11.7%;
+        height: 11.7%;
+        padding-bottom: 20px;
+        padding-left: 640px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    div.title {
+        border-width: .7em;
+    }
+
+    html {
+        padding-top: 10.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 }
 
