@@ -1,357 +1,58 @@
-html {
-    background: url("/static/img/orans.jpg");
+body {
+    background: url("/static/img/brightflow.jpg");
     background-size: cover;
 }
 
 h1 {
-    display: inline-block;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: .2em;
-    text-shadow: 2px -0.5px whitesmoke;
-}
-
-div.title {
+    margin-top: 300px;
+    font-size: 5em;
+    font-family: cursive;
+    letter-spacing: .3em;
     text-align: center;
-    border: solid;
-    border-width: .4em;
+    color: whitesmoke;
+    text-shadow: 1px 0 rgb(0, 0, 0), 
+               0 2px 0 #030303,
+               0 3px 0 rgb(12, 12, 12),
+               0 4px 0 #3f3f3f,
+               0 5px 0 rgb(83, 83, 83),
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 
-div.shapes {
-    border: solid 4px black;
-    display: inline;
+p {
+    font-size: 2em;
+    margin-bottom: 100px;
+    margin-left: 750px;
+    margin-right: 750px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 4px rgb(0, 0, 0);
+    letter-spacing: .4em;
+    border: 5px solid;
+    padding: 15px;
+    border-color: white;
+    box-shadow: 5px 4px #03030349;
 }
 
-img.ig {
-    width: 13.5%;
-    height: 13.5%;
-    padding-left: 160px;
-    padding-bottom: 6px;
-}
-
-img.fb {
-    width: 11.7%;
-    height: 11.7%;
-    padding-bottom: 20px;
-    padding-left: 640px;
+p:hover {
+    background-color: rgba(255, 255, 255, 0.356);
+    border-color: black;
+    color: black;
+    box-shadow: 5px 3px rgba(255, 255, 255, 0.301);
+    text-shadow: none;
 }
 
 footer {
-    bottom: 0em;
-    position: fixed;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    letter-spacing: .1em;
 }
-
-span {
-    color: red;
-    text-shadow: 2px -0.5px black;
-}
-
-@media only screen and (min-width: 320px) {
-    img.ig {
-        width: 25%;
-        height: 25%;
-        padding-left: 40px;
-    }
-
-    img.fb {
-        width: 21.5%;
-        height: 21.5%;
-        padding-bottom: 11px;
-        padding-left: 60px;
-    }
-
-    h1 {
-        font-size: 1rem;
-    }
-
-    div.title {
-        border-width: .3em;
-    }
-
-    html {
-        padding-top: 7px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
-
-@media only screen and (min-width: 375px) {
-    img.ig {
-        width: 25%;
-        height: 25%;
-        padding-left: 40px;
-        padding-bottom: 2px;
-    }
-
-    img.fb {
-        width: 21.5%;
-        height: 21.5%;
-        padding-bottom: 10px;
-        padding-left: 75px;
-    }
-
-    h1 {
-        font-size: 1.1rem;
-    }
-
-    div.title {
-        border-width: .31em;
-    }
-
-    html {
-        padding-top: 10px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
-
-@media only screen and (min-width: 414px) {
-    img.ig {
-        width: 25%;
-        height: 25%;
-        padding-left: 40px;
-        padding-bottom: 4px;
-    }
-
-    img.fb {
-        width: 21.5%;
-        height: 21.5%;
-        padding-bottom: 11px;
-        padding-left: 85px;
-    }
-
-    h1 {
-        font-size: 1.2rem;
-    }
-
-    div.title {
-        border-width: .335em;
-    }
-
-    html {
-        padding-top: 10.5px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
-
-@media only screen and (min-width: 568px) {
-    img.ig {
-        width: 15%;
-        height: 15%;
-        padding-left: 40px;
-        padding-bottom: 4px;
-    }
-
-    img.fb {
-        width: 12.7%;
-        height: 12.7%;
-        padding-bottom: 11px;
-        padding-left: 182px;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    div.title {
-        border-width: .335em;
-    }
-
-    html {
-        padding-top: 10.5px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
-
-@media only screen and (min-width: 667px) {
-    img.ig {
-        width: 15%;
-        height: 15%;
-        padding-left: 40px;
-        padding-bottom: 4px;
-    }
-
-    img.fb {
-        width: 12.7%;
-        height: 12.7%;
-        padding-bottom: 11px;
-        padding-left: 215px;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    div.title {
-        border-width: .335em;
-    }
-
-    html {
-        padding-top: 10.5px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
-
-@media only screen and (min-width: 736px) {
-    img.ig {
-        width: 14%;
-        height: 14%;
-        padding-left: 40px;
-        padding-bottom: 4px;
-    }
-
-    img.fb {
-        width: 11.8%;
-        height: 11.8%;
-        padding-bottom: 11px;
-        padding-left: 247px;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    div.title {
-        border-width: .335em;
-    }
-
-    html {
-        padding-top: 10.5px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
-
-@media only screen and (min-width: 800px) {
-    img.ig {
-        width: 13.5%;
-        height: 13.5%;
-        padding-left: 60px;
-        padding-bottom: 4px;
-    }
-
-    img.fb {
-        width: 11.8%;
-        height: 11.8%;
-        padding-bottom: 11px;
-        padding-left: 265px;
-    }
-
-    h1 {
-        font-size: 2.3rem;
-    }
-
-    div.title {
-        border-width: .335em;
-    }
-
-    html {
-        padding-top: 10.5px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    img.ig {
-        width: 13.5%;
-        height: 13.5%;
-        padding-left: 100px;
-        padding-bottom: 6px;
-    }
-
-    img.fb {
-        width: 11.8%;
-        height: 11.8%;
-        padding-bottom: 13px;
-        padding-left: 327px;
-    }
-
-    h1 {
-        font-size: 2.8rem;
-    }
-
-    div.title {
-        border-width: .38em;
-    }
-
-    html {
-        padding-top: 10.5px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
-
-@media only screen and (min-width: 1366px) {
-    img.ig {
-        width: 13.5%;
-        height: 13.5%;
-        padding-left: 120px;
-        padding-bottom: 9px;
-    }
-
-    img.fb {
-        width: 11.6%;
-        height: 11.6%;
-        padding-bottom: 20px;
-        padding-left: 450px;
-    }
-
-    h1 {
-        font-size: 3.5rem;
-    }
-
-    div.title {
-        border-width: .5em;
-    }
-
-    html {
-        padding-top: 10.5px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
-
-@media only screen and (min-width: 1920px) {
-    img.ig {
-        width: 13.5%;
-        height: 13.5%;
-        padding-left: 160px;
-        padding-bottom: 3px;
-    }
-
-    img.fb {
-        width: 11.7%;
-        height: 11.7%;
-        padding-bottom: 20px;
-        padding-left: 640px;
-    }
-
-    h1 {
-        font-size: 3.5rem;
-    }
-
-    div.title {
-        border-width: .7em;
-    }
-
-    html {
-        padding-top: 10.5px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
-
