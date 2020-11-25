@@ -1,0 +1,402 @@
+* { box-sizing: border-box; }
+
+h1 { 
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 5em;
+    font-family: 'Cinzel';
+    text-align: center;
+    letter-spacing: .3em;
+    border: 3px solid magenta;
+}
+
+p {
+    font-family: 'Cinzel', serif;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    padding: 30px 25px 25px 25px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.45;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*.main-content {
+    /*border: 10px solid white;
+    background-color: black;
+    padding: 2%;
+    flex: 1 1 80%;
+    min-height: 125vh;
+    overflow: auto;
+}*/
+
+
+/*-----------------------------------------*/
+      /*Beginning of Photo Grid CSS*/
+/*-----------------------------------------*/
+
+.picture {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 5vw);
+    grid-gap: 15px;
+}
+
+.nature-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.child-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.wedding-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.maternity-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.two {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.six {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.four {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.five {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.three {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.seven {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+
+.eight {
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+
+.nine {
+    grid-column-start: 13;
+    grid-column-end: 17;
+    grid-row-start: 9;
+    grid-row-end: 14;
+}
+
+.ten {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 11;
+    grid-row-end: 14;
+}
+
+.eleven {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 14;
+    grid-row-end: 17;
+}
+
+.seventeen {
+    grid-column-start: 13;
+    grid-column-end: 17;
+    grid-row-start: 14;
+    grid-row-end: 17;
+}
+
+.thirteen {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 9;
+}
+
+.fourteen {
+    grid-column-start: 13;
+    grid-column-end: 15;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
+.fifteen {
+    grid-column-start: 15;
+    grid-column-end: 17;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
+.sixteen {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.twelve {
+    grid-column-start: 13;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+
+.eighteen {
+    grid-column-start: 13;
+    grid-column-end: 17;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.nineteen {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 12;
+}
+
+.twenty {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 12;
+    grid-row-end: 15;
+}
+
+.twentyfour {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 15;
+    grid-row-end: 17;
+}
+
+.twentytwo {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 15;
+    grid-row-end: 17;
+}
+
+.twentythree {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 12;
+}
+
+.twentyone {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 12;
+    grid-row-end: 17;
+}
+
+.nature-img:hover {
+    transform: scale(2.25);
+    border: 2px solid black;
+}
+
+.child-img:hover {
+    transform: scale(2.25);
+    border: 2px solid black;
+}
+
+.wedding-img:hover {
+    transform: scale(2.25);
+    border: 2px solid black;
+}
+
+.maternity-img:hover {
+    transform: scale(2.25);
+    border: 2px solid black;
+}
+
+
+/*-----------------------------------------*/
+         /*End of Photo Grid CSS*/
+/*-----------------------------------------*/
+
+
+footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: black;
+    margin-top: 2em;
+}
+
+/*-----------------------------------------*/
+      /*Beginning of Navigation CSS*/
+/*-----------------------------------------*/
+
+.sidebar {
+    background-color: black;
+    flex: 1 1 20%;
+    min-width: 300px;
+    margin-bottom: 2em;
+}
+
+.logo {
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    padding: 1em;
+    color: white;
+    @media (min-width: 1500px) {
+        margin-bottom: 5em;
+    }
+}
+
+.nav-item {
+    color: magenta;
+    text-decoration: none;
+    font-family: 'Alex Brush';
+    font-size: 2rem;
+    display: inline-block;
+    margin-right: 2em;
+    @media (min-width: 1500px) {
+        display: block;
+        margin: 7vh 0;
+    }
+}
+
+.active {
+    color: white;
+}
+
+span {
+    color: magenta;
+}
+
+.nav {
+    list-style: none;
+    font-weight: bold;
+    float: left; /* Clear floats */
+    width: 100%;
+    /* Bring the nav above everything else--uncomment if needed.
+    position: relative;
+    z-index: 5;
+    */
+}
+
+.nav li {
+    float: left;
+    position: relative;
+}
+
+.nav a {
+    display: block;
+    color: magenta;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav ul {
+    background-color: #000; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background: rgb(0, 0, 0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style: none;
+    position: absolute;
+    left: -9999px; /* Hide off-screen when not needed (this is more accessible than display: none;) */
+}
+
+.nav ul li { /* Introducing a padding between the li and the a give the illusion spaced items */
+    float: none;
+}
+
+.nav ul a {
+    white-space: nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+
+.nav li:hover ul { /* Display the dropdown on hover */
+    left: 0; /* Bring back on-screen when needed */
+}
+
+.nav li:hover a { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+    text-decoration: none;
+}
+
+.nav li:hover ul a { /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    text-decoration: none;
+}
+
+.nav li:hover ul li a:hover { /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+/*-----------------------------------------*/
+         /*End of Navigation CSS*/
+/*-----------------------------------------*/
+
+.services {
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+.r, .left {
+    height: 50vh;
+    width: 100%;
+    list-style: none;
+}
+
+.r {
+    text-align: right;
+}

@@ -3,12 +3,26 @@
 <head>
     {% load static %}
     <title>Hart2HeartPhotography</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'style2.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <h1>Hart2HeartPhotography</h1>
-    <p><a>ENTER HERE</a></p>
-    <footer>&copy; 2019 Hart2HeartPhotography, LLC</footer>
+    <div class="row no-gutters">
+        <div class="col-md-6">
+            <div class="leftside">
+                <h1>Hart2HeartPhotography</h1>
+                <p class="quote">"Captured by the Hart..."</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="rightside">
+                <p class="enter"><a href="/services">ENTER HERE</a></p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
