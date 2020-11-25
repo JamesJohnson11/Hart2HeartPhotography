@@ -1,0 +1,121 @@
+h1 {
+    font-size: 2em;
+    font-family: 'Cinzel', serif;
+    letter-spacing: .3em;
+    color: whitesmoke;
+    text-shadow: 1px 0 rgb(0, 0, 0), 
+               1px 2px 0 #030303,
+               2px 3px 0 rgb(12, 12, 12),
+               3px 2px 0 #3f3f3f,
+               0 3px 0 rgb(255, 83, 255),
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 5px rgba(0,0,0,.2),
+               0 10px 20px rgba(0,0,0,.15);
+    padding-top: 225px;
+}
+
+.enter {
+    font-family: 'Cinzel', serif;
+    font-size: 1.4em;
+    justify-content: center;
+    text-shadow: 1px 0 rgb(0, 0, 0), 
+               0 2px 0 #030303,
+               0 3px 0 rgb(12, 12, 12),
+               0 4px 0 #3f3f3f,
+               0 5px 0 rgb(83, 83, 83),
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    padding-top: 350px;
+}
+
+.quote {
+    font-size: 1.75em;
+    font-family: 'Raleway';
+    letter-spacing: .3em;
+    color: whitesmoke;
+    text-shadow: 1px 0 rgb(0, 0, 0), 
+               0 2px 0 #030303,
+               0 3px 0 rgb(12, 12, 12),
+               0 4px 0 #3f3f3f,
+               0 5px 0 rgb(255, 83, 255),
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    padding-top: 150px;
+}
+
+.leftside, .rightside {
+    height: 100vh;
+    width: 100%;
+}
+
+.leftside:hover {
+    background: rgba(0, 0, 0, 0.753);
+}
+
+.leftside {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.849);
+    border: 10px solid black;
+    border-right: none;
+}
+
+.rightside:hover {
+    background: rgba(255, 255, 255, 0.404);
+}
+
+.rightside {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border: 10px solid black;
+    border-left: none;
+}
+
+body {
+    border: 60px solid white;
+    background: url("/static/img/brightflow.jpg");
+    background-size: cover;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 25px;
+    border: 4px solid black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+    text-shadow: 1px 0 rgb(0, 0, 0), 
+    1px 2px 0 #030303,
+    2px 3px 0 rgb(12, 12, 12),
+    3px 2px 0 #3f3f3f,
+    0 3px 0 rgb(255, 83, 255),
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 5px rgba(0,0,0,.2),
+    0 10px 20px rgba(0,0,0,.15);
+}
+
